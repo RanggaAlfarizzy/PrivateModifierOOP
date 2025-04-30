@@ -18,4 +18,16 @@ private:
         cin >> tinggi;
     }
 
-}
+    void outputData() {
+        cout << "Alas   : " << alas << endl;
+        cout << "Tinggi : " << tinggi << endl;
+
+        if (alas % 2 != 0) {
+            cout << "Perhitungan dibatalkan karena alas adalah bilangan ganjil." << endl;
+        } else {
+            float hasilLuas = luas(alas, tinggi);
+            cout << "Luas segitiga = " << hasilLuas << endl;
+        }
+    }
+
+};
