@@ -31,3 +31,10 @@ private:
     }
 
 };
+
+int main() {
+    Segitiga segi;
+    segi.inputData();
+    segi.outputData();
+    return 0;
+}
